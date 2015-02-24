@@ -5,6 +5,8 @@
 # server list. The second argument is a, or duck-types, Hash and is
 # used to set extended properties on the server.
 
+server 'ft-01.cifnet.alawar.local', user: 'installer', roles: %w{web}
+server 'ft-02.cifnet.alawar.local', user: 'installer', roles: %w{web}
 server 'ft-03.cifnet.alawar.local', user: 'installer', roles: %w{web}
 
 #
